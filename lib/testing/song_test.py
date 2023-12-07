@@ -30,9 +30,9 @@ class TestSong:
 
     def test_has_artists(self):
         '''keeps track of all Song artists.'''
-        assert("Jay Z" in Song.artists)
-        assert("Beyonce" in Song.artists)
-        assert("Hall and Oates" in Song.artists)
+        assert("Jay Z" in Song.artist_count)
+        assert("Beyonce" in Song.artist_count)
+        assert("Hall and Oates" in Song.artist_count)
         
     def test_has_genre_count(self):
         '''keeps count of Songs for each genre.'''
